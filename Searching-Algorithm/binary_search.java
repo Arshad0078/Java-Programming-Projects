@@ -1,7 +1,7 @@
 public class binary_search{
     public static void main(String[] args){
         int arr[] = {1,2,3,4,5,6,7,8,9,0};
-        int low = 0,mid,high = arr.length,key = 1923,pos=-1;
+        int low = 0,mid,high = arr.length,key = 9,pos=-1;
         boolean found = false;
         while (low<high){
             mid = (low+high)/2;

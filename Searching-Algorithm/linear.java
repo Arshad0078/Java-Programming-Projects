@@ -1,7 +1,7 @@
 public class linear{
     public static void main(String[] args){
-        int arr[] = {23,56,12,69,10,100};
-        int key = 178,n = arr.length,pos=0;
+        int arr[] = {10,20,30,50,70,90};
+        int key = 50 ,n = arr.length,pos=0;
         boolean found = false;
         for (int i=0;i<n;i++){
             if (key==arr[i]){
